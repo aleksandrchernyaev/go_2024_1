@@ -7,6 +7,8 @@ import (
 )
 
 func main() {
+	var str string
+
 	type pair struct {
 		s1 string
 		s2 string
@@ -23,7 +25,7 @@ func main() {
 
 	for _, t := range test {
 
-		str, _ := decode(t.s1)
+		str, _ = decode(t.s1)
 		if t.s2 == str {
 			fmt.Printf("%s - %s\n", t.s1, "OK")
 		} else {
