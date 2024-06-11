@@ -40,15 +40,22 @@ func main() {
 
 	slice := make([]key_value, len(dictionary)+1)
 
+	CompareFunc := func(i, j int) bool {
+		return slice[i].value > slice[j].value
+	}
+
 	for key, value := range dictionary {
 		slice = append(slice, key_value{key, value})
 	}
 
-	sort.Slice(slice, func(i, j int) bool {
-		return slice[i].value > slice[j].value
-	})
+	sort.Slice(slice, CompareFunc)
 
+	i := 0
 	for _, key_value := range slice {
-		fmt.Printf("%s, %d !!!\n", key_value.key, key_value.value)
+		fmt.Printf("%s, %d \n", key_value.key, key_value.value)
+		i++
+		if i == 5 {
+			break
+		}
 	}
 }
