@@ -1,0 +1,5 @@
+package mmm
+
+func main{
+
+}
