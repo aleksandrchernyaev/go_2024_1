@@ -8,3 +8,7 @@ import (
 func main() {
 	println("Hello world !!!")
 }
+
+func second() {
+	println("second")
+}
