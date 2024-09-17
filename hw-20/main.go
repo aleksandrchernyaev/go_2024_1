@@ -7,4 +7,5 @@ import (
 // комментарий к функции
 func main() {
 	println("Hello world !!!")
+	println("5")
 }
