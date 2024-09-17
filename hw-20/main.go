@@ -9,3 +9,7 @@ func main() {
 	println("Hello world !!!")
 	println("5")
 }
+
+func second() {
+	println("second")
+}
