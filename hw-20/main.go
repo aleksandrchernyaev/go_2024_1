@@ -7,6 +7,7 @@ import (
 // комментарий к функции
 func main() {
 	println("Hello world !!!")
+	println("5-1+9")
 	println("5-1+1")
 }
 
