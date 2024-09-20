@@ -7,7 +7,7 @@ import (
 // комментарий к функции
 func main() {
 	println("Hello world !!!")
-	println("5-1")
+	println("5-1+0")
 }
 
 func second() {
