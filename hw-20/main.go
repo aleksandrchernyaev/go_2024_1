@@ -8,6 +8,8 @@ import (
 func main() {
 	println("Hello world !!!")
 	println("5-1+0")
+	println("5-1+22")
+	println("5-1+22+0")
 }
 
 func second() {
